@@ -6,12 +6,14 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
+    "release": "dotenv release-it"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "^6.0.0",
     "release-it": "^15.5.0"
   },
   "release-it": {

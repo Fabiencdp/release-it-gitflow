@@ -12,5 +12,13 @@
   "license": "ISC",
   "devDependencies": {
     "release-it": "^15.5.0"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": true
+    }
   }
 }

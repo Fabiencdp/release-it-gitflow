@@ -24,9 +24,6 @@
       "tagAnnotation": "Release ${version}",
       "commitMessage": "chore: release v${version}"
     },
-    "github": {
-      "release": true
-    },
     "gitlab": {
       "release": true
     }
